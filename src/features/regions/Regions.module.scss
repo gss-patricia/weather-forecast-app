@@ -1,0 +1,37 @@
+.regions {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    &__title {
+        font-size: 16px;
+        padding: 10px 0;
+        text-transform: uppercase;
+    }
+
+    &__item {
+        display: flex;
+        padding: 5px;
+    }
+
+    &__label {
+        font-weight: 600;
+        margin-right: 10px;
+        min-width: 60%;
+    }
+
+    &__button {
+        cursor: pointer;
+        &:after {
+            content: ' »';
+        }
+    }
+
+    &__filter {
+        display: block;
+        max-width: 100px;
+        margin-bottom: 15px;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}

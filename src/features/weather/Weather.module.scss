@@ -1,0 +1,20 @@
+.weather {
+    display: flex;
+    width: 100%;
+    padding: 1em;
+    text-align: left;
+    gap: 20px;
+
+    &__title {
+        padding: 10px;
+        text-transform: uppercase;
+    }
+
+    &__regions {
+        min-width: 190px;
+    }
+
+    &__forecast {
+        min-width: 244px;
+    }
+}

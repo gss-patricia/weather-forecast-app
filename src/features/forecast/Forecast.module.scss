@@ -1,0 +1,20 @@
+.forecast {
+    display: flex;
+    flex-direction: column;
+
+    &__items {
+        padding: 5px;margin: 5px;
+        list-style-type: none; 
+    }
+
+    &__item {
+        &:first-child {
+            font-weight: 600;
+        }
+    }
+
+    &__label {
+        font-weight: 600;
+        margin-right: 10px;
+    }
+}
